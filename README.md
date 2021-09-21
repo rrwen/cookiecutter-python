@@ -47,7 +47,7 @@ After executing `cookiecutter gh:rrwen/cookiecutter-python`, the following files
 Path | Type | Description
 --- | --- | ---
 [bin]({{cookiecutter.name}}/bin) | Folder | Folder containing convenient scripts for developing Python packages
-[docs/source]({{cookiecutter.name}}/docs/source) | Folder | Contains files for [sphinx](https://www.sphinx-doc.org/en/master/) Python package documentation - [docs/source/index.rst]({{cookiecutter.name}}/docs/source/index.rst) may have to be edited to generate documentation without any warnings or errors
+[docs]({{cookiecutter.name}}/docs) | Folder | Contains files for [sphinx](https://www.sphinx-doc.org/en/master/) Python package documentation - [docs/source/index.rst]({{cookiecutter.name}}/docs/source/index.rst) may have to be edited to generate documentation without any warnings or errors
 [src]({{cookiecutter.name}}/src) | Folder | Folder containing Python package source files
 [.gitignore]({{cookiecutter.name}}/.gitignore) | File | A Python [.gitignore](https://git-scm.com/docs/gitignore) automatically generated from github with additions of MacOS and jupyter_sphinx exclusion files
 [DEVELOPER.md]({{cookiecutter.name}}/DEVELOPER.md) | File | File for developer notes and instructions for utilizing the command line scripts in the [bin]({{cookiecutter.name}}/bin) folder
