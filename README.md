@@ -40,7 +40,7 @@ cd <name>
 bin\init_github.bat
 ```
 
-**Note**: Replace `<name>` with the python package name
+**Note**: Replace `<name>` with the python package name that you gave during the user input prompt
 
 ## Template Structure
 
