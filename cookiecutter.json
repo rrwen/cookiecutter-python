@@ -1,9 +1,9 @@
 {
     "name": "python-package-name",
+    "name_alt": "{{ cookiecutter.name.lower().replace('-', '_').replace(' ', '_') }}",
     "description": "Python package description",
     "author": "Richard Wen",
     "email": "rrwen.dev@gmail.com",
     "github_user": "rrwen",
-    "python_version": "3.7",
-    "__name_alt": "{{ cookiecutter.name|lower|replace('-', '_')|replace(' ', '_') }}"
+    "python_version": "3.7"
 }

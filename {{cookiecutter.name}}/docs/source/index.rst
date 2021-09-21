@@ -36,7 +36,7 @@ x.
 API Reference
 =============
 
-.. autoclass:: {{cookiecutter.__name_alt}}
+.. autoclass:: {{cookiecutter.name_alt}}
     :members:
 
 Contact
