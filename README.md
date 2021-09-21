@@ -1,8 +1,10 @@
 # cookiecutter-python
 
+[![GitHub license](https://img.shields.io/github/license/rrwen/cookiecutter-python.svg)](https://github.com/rrwen/cookiecutter-python/blob/master/LICENSE)
+
 Personal cookiecutter template for Python packages.
 
-[![GitHub license](https://img.shields.io/github/license/rrwen/cookiecutter-python.svg)](https://github.com/rrwen/cookiecutter-python/blob/master/LICENSE)
+* [Developer Notes](DEVELOPER.md)
 
 ## Install
 
@@ -57,19 +59,3 @@ Path | Type | Description
 [README.md]({{cookiecutter.name}}/README.md) | File | A readme [Markdown](https://daringfireball.net/projects/markdown/) file with header, links, and contact information
 [setup.cfg]({{cookiecutter.name}}/setup.cfg) | File | Modern Python package configuration file
 [setup.py]({{cookiecutter.name}}/setup.py) | File | Older Python script to setup the package for compatibility with `pip install . -e`
-
-## Developer Notes
-
-### Create Github Repository
-
-1. Ensure [git](https://git-scm.com/) is installed
-2. Change directory to the generated folder `cd <template_name>`
-3. Initialize the repository
-4. Add the generated files to commit
-5. Create an empty [Github repository](https://help.github.com/articles/create-a-repo/) with the same name as `name`
-6. Pull any changes if the Github repository is not empty
-7. Push the commit from `4.` to your created Github repository
-
-The following files will be created inside a folder with the same name as the `name` input:
-
-
