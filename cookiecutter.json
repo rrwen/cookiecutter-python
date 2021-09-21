@@ -1,0 +1,8 @@
+{
+    "name": "python-package-name",
+    "description": "Python package description",
+    "author": "Richard Wen",
+    "email": "rrwen.dev@gmail.com",
+    "github_user": "rrwen",
+    "python_version": "3.7"
+}

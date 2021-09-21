@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -a -m "Initial commit"
+git remote add origin https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.name}}.git
+git pull origin master --allow-unrelated-histories
+git push -u origin master
