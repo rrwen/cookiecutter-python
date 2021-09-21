@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# {{cookiecutter.name_alt}} documentation build configuration file
+# {{cookiecutter.__name_alt}} documentation build configuration file
 #
 # This file is execfile() with the current directory set to its
 # containing dir.
@@ -21,11 +21,11 @@ from datetime import datetime
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../{{cookiecutter.name_alt}}'))
+sys.path.insert(0, os.path.abspath('../../{{cookiecutter.__name_alt}}'))
 import sphinx_rtd_theme
 
 author = '{{cookiecutter.author}} {{cookiecutter.email}}'
-project = '{{cookiecutter.name_alt}}'
+project = '{{cookiecutter.__name_alt}}'
 description = '{{cookiecutter.description}}'
 copyright = str(datetime.now().year) + ', ' + '{{cookiecutter.author}}'
 version = '0.0.0'
@@ -115,7 +115,7 @@ html_theme_options = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = '{{cookiecutter.name_alt}}_doc'
+htmlhelp_basename = '{{cookiecutter.__name_alt}}_doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -142,7 +142,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, '{{cookiecutter.name_alt}}.tex', project.replace('_', '\\_') + ' Documentation',
+    (master_doc, '{{cookiecutter.__name_alt}}.tex', project.replace('_', '\\_') + ' Documentation',
      author, 'manual'),
 ]
 
