@@ -1,4 +1,5 @@
 git init
+git branch -M main
 git add .
 git commit -a -m "Initial commit"
 git remote add origin https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.name}}.git
