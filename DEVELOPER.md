@@ -35,3 +35,5 @@ Path | Type | Description
 [README.md]({{cookiecutter.name}}/README.md) | File | A readme [Markdown](https://daringfireball.net/projects/markdown/) file with header, links, and contact information
 [setup.cfg]({{cookiecutter.name}}/setup.cfg) | File | Modern Python package configuration file
 [setup.py]({{cookiecutter.name}}/setup.py) | File | Older Python script to setup the package for compatibility with `pip install . -e`
+
+**Note**: After generating your template, it is recommended to read the `DEVELOPER.md` file for managing your Python package, environment, and documentation

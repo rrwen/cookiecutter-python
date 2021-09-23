@@ -141,3 +141,12 @@ In Windows:
 ```
 bin\rebuild_docs
 ```
+
+## Hosting the documentation on Github
+
+Since the documentation is generated as HTML web pages in the `docs` folder, you can host your documentation on [Github Pages](https://pages.github.com/).
+
+1. [Setup your Github Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site) using the **Settings** tab in your Github repository interface
+2. Under **Source**, set the branch to `main` and the folder to `/docs` and click save
+3. Wait a moment for the hosting service to load and configure your pages
+4. Your documentation will be hosted online at https://{{cookiecutter.github_user}}.github.io/{{cookiecutter.name}}
