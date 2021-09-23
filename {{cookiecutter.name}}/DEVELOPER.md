@@ -66,6 +66,46 @@ bin\activate
 
 **Note**: The environment exists inside the `env/` folder.
 
+## Package Management
+
+The package can be reinstalled or uninstalled locally using the scripts in the `bin` folder.
+
+This is particularly useful when you add or remove package dependencies in `setup.cfg`.
+
+For example, you may want to run `bin/reinstall_package` after you edit the package dependencies to ensure that all dependencies are met after the changes.
+
+### Reinstalling the package
+
+The package can be reinstalled in your virtual environment by running `bin/reinstall_package`.
+
+In Linux/Mac OS:
+
+```
+source bin/reinstall_package.sh
+```
+
+In Windows:
+
+```
+bin\reinstall_package
+```
+
+### Uninstalling the package
+
+The package can be uninstalled from your virtual environment using `bin/uninstall_package`.
+
+In Linux/Mac OS:
+
+```
+source bin/uninstall_package.sh
+```
+
+In Windows:
+
+```
+bin\uninstall_package
+```
+
 ## Documentation
 
 The documentation is automatically built with [sphinx](http://www.sphinx-doc.org/en/master/).
