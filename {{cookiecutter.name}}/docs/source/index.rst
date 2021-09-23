@@ -5,7 +5,7 @@
 
 
 * `Github <https://www.github.com/{{cookiecutter.github_user}}/{{cookiecutter.name}}>`_
-* `License <https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.name}}/blob/master/LICENSE>`_
+* `License <https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.name}}/blob/main/LICENSE>`_
 
 Install
 =======

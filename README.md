@@ -1,6 +1,6 @@
 # cookiecutter-python
 
-[![GitHub license](https://img.shields.io/github/license/rrwen/cookiecutter-python.svg)](https://github.com/rrwen/cookiecutter-python/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/rrwen/cookiecutter-python.svg)](https://github.com/rrwen/cookiecutter-python/blob/main/LICENSE)
 
 Personal cookiecutter template for Python packages.
 
