@@ -23,7 +23,7 @@ pip install cookiecutter
 3. Change directory to the generated folder `cd <name>`
 4. Create an empty [Github repository](https://help.github.com/articles/create-a-repo/) through the Github interface with the same name as the package `name`
 5. Initialize the Github repository by running `bin/init_github.sh` or `bin/init_github.bat`
-6. See [Developer Notes](DEVELOPER.md) for details on the files and folders generated
+6. See [Developer Notes](DEVELOPER.md) for details on the files and folders generated, as well as hosting a documentation web page
 
 In Linux/Mac OS:
 
