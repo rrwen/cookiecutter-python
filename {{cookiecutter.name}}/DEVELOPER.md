@@ -64,7 +64,7 @@ In Windows:
 bin\activate
 ```
 
-**Note**: The environment exists inside the `env/` folder.
+**Note**: The environment exists inside the `env.nosync/` folder.
 
 ## Package Management
 
