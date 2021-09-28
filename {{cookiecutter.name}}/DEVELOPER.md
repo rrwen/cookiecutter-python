@@ -141,7 +141,7 @@ bin\rebuild_docs
 
 ## Publishing to Python Package Index (PyPi)
 
-When the package is ready, you can publish it to [PyPi]() so that it is publicly available and `pip` installable:
+When the package is ready, you can publish it to [PyPi](https://pypi.org/) so that it is publicly available and `pip` installable:
 
 1. Remove any existing versions in the `dist/` folder
 2. Build the current package distribution files in `dist/` with `setup.py sdist`
