@@ -146,6 +146,7 @@ When the package is ready, you can publish it to [PyPi](https://pypi.org/) so th
 1. Remove any existing versions in the `dist/` folder
 2. Build the current package distribution files in `dist/` with `setup.py sdist`
 3. Upload the package to PyPi with `twine`
+4. Your package should be available at https://pypi.org/project/{{cookiecutter.name}}
 
 ```
 rm -rf dist
