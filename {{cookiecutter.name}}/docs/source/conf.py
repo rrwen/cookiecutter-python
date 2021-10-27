@@ -22,7 +22,6 @@ from datetime import datetime
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../../{{cookiecutter.name_alt}}'))
-import sphinx_rtd_theme
 
 author = '{{cookiecutter.author}} {{cookiecutter.email}}'
 project = '{{cookiecutter.name_alt}}'
@@ -46,7 +45,6 @@ extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.napoleon',
     'sphinx.ext.intersphinx',
-    'sphinx_rtd_theme',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.graphviz',
     'jupyter_sphinx.execute',
@@ -94,16 +92,24 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_material'
+html_logo = 'logo.svg'
+html_title = version
+html_sidebars = {
+    "**": ["globaltoc.html", "localtoc.html", "searchbox.html"]
+}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
 html_theme_options = {
-    'collapse_navigation': False,
-    'navigation_depth': -1,
-    'sticky_navigation': True
+    'nav_title': '{{cookiecutter.name}}',
+    'base_url': 'https://{{cookiecutter.github_user}}.github.io/{{cookiecutter.name}}',
+    'color_primary': 'indigo',
+    'color_accent': 'light-blue',
+    'repo_url': 'https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.name}}/',
+    'repo_name': '{{cookiecutter.name}}'
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
